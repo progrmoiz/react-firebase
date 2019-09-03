@@ -1,0 +1,13 @@
+{
+  "generator-react-firebase": {
+    "promptValues": {
+      "githubUser": "progrmoiz",
+      "firebaseName": "react-firebase-34f46",
+      "firebaseKey": "AIzaSyBOgw2rdWVgTxGtLOESR7nbv4zAvK3G7Nc",
+      "includeRedux": true,
+      "includeFirestore": true,
+      "otherFeatures": [],
+      "deployTo": "firebase"
+    }
+  }
+}

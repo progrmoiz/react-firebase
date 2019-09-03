@@ -1,0 +1,31 @@
+{
+  "projects": {
+    "default": "react-firebase-34f46",
+    "master": "react-firebase-34f46",
+    "prod": "react-firebase-34f46"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "staging",
+        "firebase": {
+          "apiKey": "${STAGE_FIREBASE_API_KEY}",
+          "authDomain": "react-firebase-34f46.firebaseapp.com",
+          "databaseURL": "https://react-firebase-34f46.firebaseio.com",
+          "projectId": "react-firebase-34f46",
+          "storageBucket": "react-firebase-34f46.appspot.com"
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "${PROD_FIREBASE_API_KEY}",
+          "authDomain": "react-firebase-34f46.firebaseapp.com",
+          "databaseURL": "https://react-firebase-34f46.firebaseio.com",
+          "projectId": "react-firebase-34f46",
+          "storageBucket": "react-firebase-34f46.appspot.com"
+        }
+      }
+    }
+  }
+}
